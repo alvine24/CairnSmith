@@ -35,28 +35,58 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cairnsmith.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_cairnsmith.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_cairnsmith.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_cairnsmith.cpp">
-      <Filter>Generated Files</Filter>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cscentralwidget_blueprint_design_rendering.cpp">
+      <Filter>Generated Files\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="cslogin.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GeneratedFiles\Release\moc_cscentralwidget_blueprint_design_rendering.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_csdocumentview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_csdocumentview.cpp">
+      <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_cslogin.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_cslogin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_csmodellingpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_csmodellingpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cspromptdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cspromptdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_csrenamedlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_csrenamedlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cstabwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cstabwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_csviewtabwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_csviewtabwidget.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_sheer_cloud.cpp">
@@ -65,120 +95,173 @@
     <ClCompile Include="GeneratedFiles\Release\moc_sheer_cloud.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="sheer_cloud.cpp">
+    <ClCompile Include="UI\Home\cairnsmith.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="csdocumentview.cpp">
+    <ClCompile Include="UI\Home\cscentralwidget_blueprint_design_rendering.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_csdocumentview.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_csdocumentview.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="cstabwidget.cpp">
+    <ClCompile Include="UI\Home\csdocumentview.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_cstabwidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_cstabwidget.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="csorientationbutton.cpp">
+    <ClCompile Include="UI\Home\cslogin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_csorientationbutton.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_csorientationbutton.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="cscentralwidget_blueprint_design_rendering.cpp">
+    <ClCompile Include="UI\Home\csmodelling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_cscentralwidget_blueprint_design_rendering.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_cscentralwidget_blueprint_design_rendering.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="csblueprint.cpp">
+    <ClCompile Include="UI\Home\cspromptdlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_csblueprint.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_csblueprint.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="csblueprintwidget.cpp">
+    <ClCompile Include="UI\Home\csrenamedlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_csblueprintwidget.cpp">
-      <Filter>Generated Files\Debug</Filter>
+    <ClCompile Include="UI\Home\cstabwidget.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_csblueprintwidget.cpp">
-      <Filter>Generated Files\Release</Filter>
+    <ClCompile Include="UI\Home\csviewtabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Home\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Home\sheer_cloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_cairnsmith.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="cairnsmith.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="cairnsmith.ui">
+    <CustomBuild Include="UI\Forms\BP_DESIGN_RENDERING_Independent.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="cairnsmith.qrc">
+    <CustomBuild Include="UI\Forms\cairnsmith.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\login.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\modelling.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\projectsTab.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\promptUI.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\rename_Dialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\cairnsmith.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\cscentralwidget_blueprint_design_rendering.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\csdocumentview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\cslogin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\csmodellingpage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\cspromptdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\csrenamedlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\cstabwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\csviewtabwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Home\sheer_cloud.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\cairnsmith.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="login.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="cslogin.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="sheer_cloud.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="csdocumentview.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="projectsTab.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="cstabwidget.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="csorientationbutton.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="cscentralwidget_blueprint_design_rendering.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="csblueprint.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="csblueprintwidget.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ResourceCompile Include="CairnSmith.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_BP_DESIGN_RENDERING_Independent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_cairnsmith.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_login.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_modelling.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_projectsTab.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="GeneratedFiles\ui_promptUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rename_Dialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Home\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="CairnSmith.rc" />
+    <None Include="Resources\Resources\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\pan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\zoomIn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\zoomOut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\rotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\fit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\manual.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\CS.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\CSLOGOMAINFRAME.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Resources\addTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

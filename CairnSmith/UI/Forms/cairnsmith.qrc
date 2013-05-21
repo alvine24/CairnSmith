@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="CairnSmith">
+      <file>../Resources/new.png</file>
+      <file>../Resources/open.png</file>
+      <file>../Resources/cut.png</file>
+      <file>../Resources/copy.png</file>
+      <file>../Resources/paste.png</file>
+      <file>../Resources/pan.png</file>
+      <file>../Resources/zoomIn.png</file>
+      <file>../Resources/zoomOut.png</file>
+      <file>../Resources/rotate.png</file>
+      <file>../Resources/fit.png</file>
+      <file>../Resources/about.png</file>
+      <file>../Resources/manual.png</file>
+      <file>../Resources/CS.png</file>
+      <file>../Resources/CSLOGOMAINFRAME.png</file>
+      <file>../Resources/addTab.png</file>
+    </qresource>
+</RCC>

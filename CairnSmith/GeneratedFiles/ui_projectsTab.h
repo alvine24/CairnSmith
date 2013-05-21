@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'projectsTab.ui'
 **
-** Created: Thu May 16 16:25:44 2013
+** Created: Mon May 20 14:54:27 2013
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -54,8 +54,10 @@ public:
     {
         if (Form_TabWidget->objectName().isEmpty())
             Form_TabWidget->setObjectName(QString::fromUtf8("Form_TabWidget"));
-        Form_TabWidget->resize(795, 613);
+        Form_TabWidget->resize(844, 631);
         gridLayout = new QGridLayout(Form_TabWidget);
+        gridLayout->setSpacing(0);
+        gridLayout->setContentsMargins(0, 0, 0, 0);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         tabWidget = new QTabWidget(Form_TabWidget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
@@ -70,7 +72,7 @@ public:
         gridLayout_2 = new QGridLayout(tabPROJECTS);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         horizontalLayout_4 = new QHBoxLayout();
-        horizontalLayout_4->setSpacing(10);
+        horizontalLayout_4->setSpacing(0);
         horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
         verticalLayout = new QVBoxLayout();
         verticalLayout->setSpacing(10);
@@ -117,8 +119,8 @@ public:
         horizontalLayout_4->addLayout(verticalLayout);
 
         verticalLayout_2 = new QVBoxLayout();
-        verticalLayout_2->setSpacing(10);
-        verticalLayout_2->setContentsMargins(10, 10, 10, 10);
+        verticalLayout_2->setSpacing(0);
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         label_2 = new QLabel(tabPROJECTS);
         label_2->setObjectName(QString::fromUtf8("label_2"));

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'cairnsmith.ui'
 **
-** Created: Thu May 16 16:25:43 2013
+** Created: Mon May 20 14:54:27 2013
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -20,7 +20,6 @@
 #include <QtGui/QMenu>
 #include <QtGui/QMenuBar>
 #include <QtGui/QStatusBar>
-#include <QtGui/QToolBar>
 #include <QtGui/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -49,13 +48,12 @@ public:
     QMenu *menuView;
     QMenu *menuHelp;
     QStatusBar *statusBar;
-    QToolBar *toolBar;
 
     void setupUi(QMainWindow *CairnSmithClass)
     {
         if (CairnSmithClass->objectName().isEmpty())
             CairnSmithClass->setObjectName(QString::fromUtf8("CairnSmithClass"));
-        CairnSmithClass->resize(1106, 632);
+        CairnSmithClass->resize(750, 622);
         CairnSmithClass->setMinimumSize(QSize(700, 500));
         QIcon icon;
         icon.addFile(QString::fromUtf8("Resources/CS.png"), QSize(), QIcon::Normal, QIcon::Off);
@@ -125,13 +123,14 @@ public:
         centralWidget = new QWidget(CairnSmithClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         gridLayout = new QGridLayout(centralWidget);
-        gridLayout->setSpacing(6);
+        gridLayout->setSpacing(0);
         gridLayout->setContentsMargins(11, 11, 11, 11);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        gridLayout->setContentsMargins(-1, -1, -1, 0);
         CairnSmithClass->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(CairnSmithClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1106, 21));
+        menuBar->setGeometry(QRect(0, 0, 750, 21));
         menuFile = new QMenu(menuBar);
         menuFile->setObjectName(QString::fromUtf8("menuFile"));
         menuEdit = new QMenu(menuBar);
@@ -144,9 +143,6 @@ public:
         statusBar = new QStatusBar(CairnSmithClass);
         statusBar->setObjectName(QString::fromUtf8("statusBar"));
         CairnSmithClass->setStatusBar(statusBar);
-        toolBar = new QToolBar(CairnSmithClass);
-        toolBar->setObjectName(QString::fromUtf8("toolBar"));
-        CairnSmithClass->addToolBar(Qt::TopToolBarArea, toolBar);
 
         menuBar->addAction(menuFile->menuAction());
         menuBar->addAction(menuEdit->menuAction());
@@ -167,22 +163,6 @@ public:
         menuHelp->addAction(actionAbout);
         menuHelp->addAction(actionManual);
         menuHelp->addSeparator();
-        toolBar->addAction(actionNew);
-        toolBar->addAction(actionOpen);
-        toolBar->addAction(actionExit);
-        toolBar->addSeparator();
-        toolBar->addAction(actionCut);
-        toolBar->addAction(actionCopy);
-        toolBar->addAction(actionPaste);
-        toolBar->addSeparator();
-        toolBar->addAction(actionPan);
-        toolBar->addAction(actionZoom_In);
-        toolBar->addAction(actionZoom_Out);
-        toolBar->addAction(actionRotate);
-        toolBar->addAction(actionFit);
-        toolBar->addSeparator();
-        toolBar->addAction(actionAbout);
-        toolBar->addAction(actionManual);
 
         retranslateUi(CairnSmithClass);
         QObject::connect(actionExit, SIGNAL(triggered()), CairnSmithClass, SLOT(close()));
@@ -210,7 +190,6 @@ public:
         menuEdit->setTitle(QApplication::translate("CairnSmithClass", "Edit", 0, QApplication::UnicodeUTF8));
         menuView->setTitle(QApplication::translate("CairnSmithClass", "View", 0, QApplication::UnicodeUTF8));
         menuHelp->setTitle(QApplication::translate("CairnSmithClass", "Help", 0, QApplication::UnicodeUTF8));
-        toolBar->setWindowTitle(QApplication::translate("CairnSmithClass", "toolBar", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
